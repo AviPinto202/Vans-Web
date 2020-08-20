@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vans</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <header class="container-header">
+        <div class="header-logo">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <a href="file:///C:/VANS/Vans/index.html">
+                            <img src="images/vanslogo.png" width="140" height="60" alt="Home" />
+                        </a>
+
+                        <div class="top-navbar">
+                            <p class="cart">Cart</p>
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <span></span>
+
+                            <div class="mini-cart">
+                                <div class="header">
+                                    <p>My Bag</p>
+                                    <i class="fa fa-times" id="close_MiniCart" aria-hidden="true"></i>
+                                </div>
+                                <div class="content">
+                                    <p>No item in cart</p>
+                                </div>
+
+                                <div class="item">
+                                    <div class="image"></div>
+                                    <div class="details">
+                                        <div class="title"></div>
+                                        <div class="price"></div>
+                                        <div class="color"></div>
+                                        <div class="size"></div>
+                                        <div class="quantity"></div>
+                                    </div>
+                                </div>
+
+                                <div class="button_part">
+                                    <div class="subTotal">
+                                        <p>Sub Total : </p>
+                                    </div>
+                                    <div class="checkout_button">
+                                        <a href="file:///C:/VANS/Vans/checkout.html">Check Out</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <p class="Favorites">Favorites</p>
+                            <i class="fa fa-shopping-cart" id="shopping" aria-hidden="true"></i>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <div id="navigation" class="navigation">
+                                </div>
+                        </div>
+                        </ul> -->
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="file:///C:/VANS/Vans/men_category.html">MEN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="file:///C:/VANS/Vans/women_category.html">WOMEN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">KIDS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">SKATE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="file:///C:/VANS/Vans/contact_us.html">CONTACT US</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class=lineText1 type="button" href="file:///C:/VANS/Vans/SHOP.html">30% Off the site by buying over $100
+    </div>
+    <div class=lineText2 type="button" href="file:///C:/VANS/Vans/CORONAVIRUS_update.html">Corona Virus Updates
+    </div>
+
+
+    <div class="main_video">
+        <video autoplay loop muted>
+            <source src="skatevideo.mp4" type="video/mp4" class="resp_video">
+            <source src="skatevideo.mp4" type="video/mp4" class="resp_video">
+        </video>
+    </div>
+
+    <div class="Shop_By_Category">
+        <h1>Shop By Category</h1>
+    </div>
+
+    <div class="shop">
+        <div class="img_women">
+            <a href="file:///C:/VANS/Vans/women_category.html">
+                <img src="images/womenshop.jpg" alt="Shop-Women" class="img_women" width="400" height="588">
+                <div class="gallery-content">
+                </div>
+                <div id="imgText">
+                    <p>Women</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="img_men">
+            <a href="file:///C:/VANS/Vans/men_category.html">
+                <img src="images/menshop2.jpg" alt="Shop-Men" class="img_men" width="400" height="588">
+                <div class="gallery-content">
+                </div>
+                <div id="imgText">
+                    <p>Men</p>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="img_kid">
+            <a href="file:///C:/VANS/Vans/kids_category.html">
+                <img src="images/kidshop.png" alt="Shop-Kid" class="img_kid" width="400" height="588">
+                <div class="gallery-content">
+                </div>
+                <div id="imgText">
+                    <p>Kids</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="featured_products_title">
+        <h1>Featured Products</h1>
+    </div>
+        <div class="featured_products">
+
+            <div class="imgslider">
+                <a href=file:///C:/VANS/Vans/product_page.html> <img src="images/black_oldskool.jpg" id="imgInSlider"
+                     alt="BlackOldSkool"
+                    width="200" height="200">
+                    <div class="products_details_slider">
+                        <p>------</p>
+                        <h5>Vans Old Skool Skate Shoe - Black</h5>
+                        <p>$59.90</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgslider">
+                <a href=#>
+                    <img src="images/white_authentic.jpg" alt="whiteauthentic" id="imgInSlider" width="200" height="200">
+                    <div class="products_details_slider">
+                        <p>------</p>
+                        <h5>Vans Authentic Skate Shoe - White</h5>
+                        <p>$49.99</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgslider">
+                <a href=file:///C:/VANS/Vans/product_page2.html> <img src="images/red_oldskool.jpg" id="imgInSlider3" alt="RedOldSkool"
+                    width="200" height="200">
+                    <div class="products_details_slider">
+                        <p>------</p>
+                        <h5>Vans Old Skool Skate Shoe - Racing Red</h5>
+                        <p>$59.90</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgslider">
+                <a href=file:///C:/VANS/Vans/product_page4.html> <img src="images/blackwhite_oldskool.jpg" id="imgInSlider4"
+                    alt="BlackWhiteOldSkool" width="200" height="s00">
+                    <div class="products_details_slider">
+                        <p>------</p>
+                        <h5>Vans Old Skool Checkerboard Skate Shoe - Black / White</h5>
+                        <p>$59.90</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="imgslider">
+                <a href=#>
+                    <img src="images/multi_oldskool.jpg" id="imgInSlider5" alt="multi_oldskool" width="200" height="200"> 
+                    <div class="products_details_slider">
+                        <p>------</p>
+                        <h5>Vans Old Skool Skate Shoe - Blue / Green / Yellow</h5>
+                        <p>$64.99</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    <div class="SpecialModel">
+        <div class="SpecialModel_img">
+            <img src="images/Old_Skool_Pro2.png" width="300" height="300">
+        </div>
+        <div class="SpecialModel_img">
+            <img src="images/Old_Skool_Pro.png" width="400" height="400">
+        </div>
+        <h1>Vans Old Skool Pro</h1>
+        <p>The Old Skool Pro, a Vans classic upgraded for enhanced performance,<br>
+            features suede, canvas, and leather uppers, single-wrap foxing tape,<br>
+            UltraCush HD sockliners to keep the foot close to the board while providing the highest level of impact
+            cushioning,
+            and Vans original waffle outsoles for superior grip and control.<br>
+            The Old Skool Pro also includes Duracap reinforcement rubber underlays in high wear areas for unrivaled
+            durability.
+        </p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-catgery"></div>
+        <ul class="footer-item">
+            <h4>SHOP</h4>
+            <il class="footer-link">
+                <a class="footer-link" href="file:///C:/VANS/Vans/men_category.html">Men</a>
+            </il>
+            <li class="footer-link">
+                <a class="footer-link" href="file:///C:/VANS/Vans/women_category.html">Women</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">Kids</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">Skate</a>
+            </li>
+        </ul>
+
+        <ul class="footer-item">
+            <h4>SUPPORT</h4>
+            <il class="footer-link">
+                <a class="footer-link" href="">FAQs</a>
+            </il>
+            <li class="footer-link">
+                <a class="footer-link" href="">Store Locator</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">Missing Points?</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">Do Not Sell My Info</a>
+            </li>
+        </ul>
+
+        <ul class="footer-item">
+            <h4>COMPANY</h4>
+            <il class="footer-link">
+                <a class="footer-link" href="">TERMS OF USE</a>
+            </il>
+            <li class="footer-link">
+                <a class="footer-link" href="">Privacy</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">Careers</a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-link" href="">About</a>
+            </li>
+        </ul>
+
+
+        <ul class="footer-item">
+            <h4>CONTACT</h4>
+            <il class="footer-link">
+                <a class="footer-link" href="file:///C:/VANS/Vans/contact_us.html">Contact Us</a>
+                <p>Address<br>1588 South Coast Dr<br>Costa Mesa, CA 92626</p>
+            </il>
+        </ul>
+        </div>
+
+    </footer>
+
+    <div class="icons">
+        <a href="https://www.facebook.com/VansEurope/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/vans/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-whatsapp"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
